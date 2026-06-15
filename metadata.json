@@ -1,0 +1,8 @@
+{
+  "name": "Threadline_F v2.0_A",
+  "description": "A comprehensive clinical conditions database explorer, featuring detailed diagnostic criteria, guidelines, and metadata for various mental health conditions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

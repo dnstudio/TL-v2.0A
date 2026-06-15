@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Frank+Ruhl+Libre:wght@600&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Frank Ruhl Libre", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  /* Brand Colors */
+  --color-primary: #06302c;
+  --color-primary-light: #e8f0ef;
+  
+  /* Status Colors */
+  --color-success: #388e3c;
+  --color-success-mid: #8bc34a;
+  --color-success-light: #ecf2eb;
+  
+  --color-info: #03a9f4;
+  --color-info-light: #e9f2f9;
+  
+  --color-error: #f44336;
+  --color-error-light: #ffd9e8;
+  
+  --color-warning: #ff9800;
+
+  /* Secondary Palette */
+  --color-secondary-focus: #C6DEF1;
+  --color-secondary-focus-text: #2d4a6a;
+  
+  --color-secondary-balance: #D4E4D2;
+  --color-secondary-balance-text: #3a5a3a;
+  
+  --color-secondary-sleep: #E6DAF7;
+  --color-secondary-sleep-text: #4a3a5a;
+  
+  --color-secondary-connection: #F8E6B2;
+  --color-secondary-connection-text: #5a4a2a;
+  
+  --color-secondary-mood: #F7C5A8;
+  --color-secondary-mood-text: #5a3a2a;
+  
+  --color-secondary-reflection: #F9C5D5;
+  --color-secondary-reflection-text: #5a2a3a;
+  
+  --color-gray-muted: #b0adad;
+  --color-gray-light: #f0efef;
+  
+  /* Text & Border */
+  --color-text-primary: #020617;
+  --color-text-secondary: #334155;
+  --color-divider: #e2e8f0;
+  
+  /* Workspace */
+  --color-workspace-bg: #fcfcfc;
+  --color-surface: #ffffff;
+  --color-avatar-bg: #e4e0dc;
+}
+
+@layer base {
+  html, body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  @keyframes shimmer {
+    100% {
+      transform: translateX(100%);
+    }
+  }
+}
